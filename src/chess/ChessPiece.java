@@ -21,6 +21,10 @@ public abstract class ChessPiece extends Piece{
 	public void decreaseMoveCount() {
 		this.moveCount --;
 	}
+	
+	public int getMoveCount() {
+		return this.moveCount;
+	}
 
 	public Color getColor() {
 		return color;
