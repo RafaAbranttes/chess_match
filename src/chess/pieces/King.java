@@ -1,12 +1,13 @@
 package chess.pieces;
 
 import boardGame.Board;
+import boardGame.Piece;
 import boardGame.Position;
 import chess.ChessPiece;
 import chess.Color;
 
 //construção da peça rei
-public class King extends ChessPiece{
+public  class King extends ChessPiece{
 
 	public King(Board board, Color color) {
 		super(board, color);
@@ -71,5 +72,7 @@ public class King extends ChessPiece{
 		}
 		return mat;
 	}
+
+
 
 }

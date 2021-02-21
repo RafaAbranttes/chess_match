@@ -31,7 +31,7 @@ public class ChessPosition {
 	//organizando a organização da peça não pelo valor da matriz
 	//mas organizando de acordo com as coordenadas do jogo
 	protected static ChessPosition fromPostition(Position position) {
-		return new ChessPosition((char) ('a' - position.getColumn()), 8 - position.getRow());
+		return new ChessPosition((char) ('a' + position.getColumn()), 8 - position.getRow());
 	}
 	
 	@Override
