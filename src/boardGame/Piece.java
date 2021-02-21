@@ -25,7 +25,7 @@ public abstract class Piece {
 	
 	//gancho com a subclasse
 	public boolean possibleMove(Position position) {
-		return possibleMoves()[position.getColumn()][position.getColumn()];
+		return possibleMoves()[position.getRow()][position.getColumn()];
 	}
 	
 	public boolean isThereAnyPossibleMove() {
